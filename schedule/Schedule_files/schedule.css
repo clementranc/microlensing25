@@ -5,7 +5,7 @@
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale
 }
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{
     border:0;
     font:inherit;
     font-size:100%;
@@ -13,6 +13,16 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     padding:0;
     text-decoration:none;
     vertical-align:baseline
+}
+footer{
+    border:0;
+    font:inherit;
+    font-size:70%;
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    vertical-align:baseline;
+    horiz-align: center;
 }
 ins{
     border:0;
@@ -100,7 +110,7 @@ ol,ul{
     width:100px;
     padding:20px 300px 0 0;
     margin:0 auto;
-    font-size:14px;
+    font-size:9px;
     font-weight:700;
     color:#5a5655
 }
@@ -117,7 +127,8 @@ ol,ul{
 }
 .footer-content .footer-venue a{
     color:#5a5655;
-    text-decoration:none
+    text-decoration:none;
+
 }
 #bottom-stripe{
     z-index:8;
@@ -515,8 +526,7 @@ ol,ul{
     line-height:1.2;
 }
 .rc-schedule-day .break .part2-title{
-    /*color:#5a5655;*/
-    color: #006600;
+    color: #008c21;
     font-weight:700;
     padding: 0;
     font-size: 14px;
@@ -544,8 +554,7 @@ ol,ul{
 }
 
 .rc-schedule-day .break .part5-title{
-    /*color:#5a5655;*/
-    color: rgb(157, 84, 0);
+    color: #01a1d2;
     font-weight:700;
     padding: 0;
     font-size: 14px;
@@ -580,7 +589,7 @@ ol,ul{
     text-align: center;
 }
 .rc-schedule-day .track-name.part2{
-    background: #006600;
+    background: #008c21;
     color:white;
     text-align: center;
 }
@@ -595,7 +604,7 @@ ol,ul{
     text-align: center;
 }
 .rc-schedule-day .track-name.part5{
-    background: #9d5400;
+    background: #01a1d2;
     color:white;
     text-align: center;
 }
