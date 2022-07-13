@@ -14,7 +14,7 @@
     <script src="Schedule_files/jquery.min.js"></script>
     <script>
         document.addEventListener('turbolinks:load', function () {
-            var el = document.getElementById('tracks-nav')
+            let el = document.getElementById('tracks-nav')
             el.addEventListener('click', function (e) {
                 e.currentTarget.classList.toggle('--tracks-nav-active');
             })
@@ -64,12 +64,26 @@
     <div id="hero" class="schedule-hero">
         <div id="hero-top">
             <div>
-                <h3>Schedule</h3>
-                <p>Schedule is subject to change until the conference starts. Last updated: July 12. All times are
-                    listed in Paris time zone (UTC+2).</p>
+                <h3>Schedule of the<br>25th International Microlensing Conference</h3>
+                <p>All times are listed in Paris time zone (UTC+2).<br>
+                    The conference schedule is subject to change until the end of August, 2022.</p>
+
+                <p>The conference schedule has several topic sessions, some of which are split into two or three parts.
+                    Please note that these parts do not always follow one another (not back-to-back) due to scheduling
+                    considerations of all participants, some of whom are 11 time zones away from Paris. Each session
+                    color
+                    refers to a specific topic.</p>
+
+                <p>The pre-recorded talks and posters will be available on this page from August 24th. Pre-recorded
+                    talks and posters are considered as important as any other contributed talk
+                    by the Scientific Organizing Committee. We warmly encourage all the participants to watch
+                    them before the start of the conference. Pre-recorded talks and posters are organized in sessions
+                    matching the in-person meeting sessions.</p>
+
+                <p>Last updated: July 14, 2022.</p>
             </div>
             <div>
-                <img width="180" src="Schedule_files/calendar.jpg">
+                <img width="180" src="Schedule_files/calendar.jpg" alt="Calendar picture">
             </div>
         </div>
 
@@ -244,7 +258,8 @@
 
                 <h4 class="timeslot"><span class="track-name part2">SESSION 6</span></h4>
                 <div class="session break">
-                    <h4 class="part2-title">Exoplanet detections and exoplanet demographics<br> PART II: High-angular resolution follow up of planetary events</h4>
+                    <h4 class="part2-title">Exoplanet detections and exoplanet demographics<br> PART II: High-angular
+                        resolution follow up of planetary events</h4>
                 </div>
 
                 <h4 class="timeslot"></h4>
@@ -277,7 +292,7 @@
                             <span class="track-name inperson">In-person</span>
                         </div>
                         <h4 class="session-title">Nearby dark lens hiding in Gaia DR3 astrometry</h4>
-                        <span class="session-author"><ins text-decoration="underline">Maja Jabłońska</ins>, Ilknur Gezer, Łukasz Wyrzykowski&nbsp;&nbsp;&#10023;&nbsp;&nbsp;Astronomical Observatory, University of Warsaw, Poland</span>
+                        <span class="session-author"><ins>Maja Jabłońska</ins>, Ilknur Gezer, Łukasz Wyrzykowski&nbsp;&nbsp;&#10023;&nbsp;&nbsp;Astronomical Observatory, University of Warsaw, Poland</span>
                         <span class="session-location">Online</span>
                     </div>
                 </div>
@@ -604,8 +619,9 @@
                 </div>
 
                 <h4 class="timeslot"><span class="track-name part1">SESSION 4</span></h4>
-               <div class="session break">
-                    <h4 class="part1-title">On-going and future ground and space-based programs<br>PART III: Other microlensing surveys and follow-up programs</h4>
+                <div class="session break">
+                    <h4 class="part1-title">On-going and future ground and space-based programs<br>PART III: Other
+                        microlensing surveys and follow-up programs</h4>
                 </div>
 
                 <h4 class="timeslot">5:45pm<span>-6:15pm</span></h4>
@@ -783,7 +799,8 @@
 
                 <h4 class="timeslot"><span class="track-name part2">SESSION 6</span></h4>
                 <div class="session break">
-                    <h4 class="part2-title">Exoplanet detections and exoplanet demographics<br> PART II: High-angular resolution follow up of planetary events</h4>
+                    <h4 class="part2-title">Exoplanet detections and exoplanet demographics<br> PART II: High-angular
+                        resolution follow up of planetary events</h4>
                 </div>
 
                 <h4 class="timeslot">2:00pm<span>-2:15pm</span></h4>
@@ -1154,11 +1171,11 @@
                         <div class="session-labels">
                             <span class="track-name part3">SESSION 9</span>
                             <span class="track-name workshop">Contributed talk</span>
-                            <span class="track-name inperson">In-person</span>
+                            <span class="track-name virtual">Virtual UTC-7</span>
                         </div>
-                        <h4 class="session-title">Detection and Mass Measurement of Isolated Stellar-Mass Black Holes
-                            through Astrometric Microlensing</h4>
-                        <span class="session-author">Kailaish Sahu&nbsp;&nbsp;&#10023;&nbsp;&nbsp;Space Telescope Science Institute (STScI), MD, USA</span>
+                        <h4 class="session-title">Searching for isolated black holes with astrometric microlensing using
+                            HST</h4>
+                        <span class="session-author">Casey Lam&nbsp;&nbsp;&#10023;&nbsp;&nbsp;University of California, Berkeley, CA, USA</span>
                         <span class="session-location">Amphithéâtre (floor 0)</span>
                     </div>
                 </div>
@@ -1171,8 +1188,9 @@
                             <span class="track-name workshop">Contributed talk</span>
                             <span class="track-name inperson">In-person</span>
                         </div>
-                        <h4 class="session-title">Assessing the Impact of Binary Systems on Microlensing: Adding Binary Systems to SPISEA and PopSyCLE</h4>
-                        <span class="session-author">Natasha Abrams&nbsp;&nbsp;&#10023;&nbsp;&nbsp;University of California, Berkeley, CA, USA</span>
+                        <h4 class="session-title">Detection and Mass Measurement of Isolated Stellar-Mass Black Holes
+                            through Astrometric Microlensing</h4>
+                        <span class="session-author">Kailaish Sahu&nbsp;&nbsp;&#10023;&nbsp;&nbsp;Space Telescope Science Institute (STScI), MD, USA</span>
                         <span class="session-location">Amphithéâtre (floor 0)</span>
                     </div>
                 </div>
@@ -1191,6 +1209,21 @@
                             <span class="track-name workshop">Contributed talk</span>
                             <span class="track-name inperson">In-person</span>
                         </div>
+                        <h4 class="session-title">Assessing the Impact of Binary Systems on Microlensing: Adding Binary
+                            Systems to SPISEA and PopSyCLE</h4>
+                        <span class="session-author">Natasha Abrams&nbsp;&nbsp;&#10023;&nbsp;&nbsp;University of California, Berkeley, CA, USA</span>
+                        <span class="session-location">Amphithéâtre (floor 0)</span>
+                    </div>
+                </div>
+
+                <h4 class="timeslot">2:15pm<span>-2:30pm</span></h4>
+                <div class="session">
+                    <div>
+                        <div class="session-labels">
+                            <span class="track-name part3">SESSION 9</span>
+                            <span class="track-name workshop">Contributed talk</span>
+                            <span class="track-name inperson">In-person</span>
+                        </div>
                         <h4 class="session-title">Impact of binary sources in the estimation of the detection efficiency
                             of microlensing</h4>
                         <span class="session-author">Marc Moniez&nbsp;&nbsp;&#10023;&nbsp;&nbsp;IJCLab-IN2P3, France</span>
@@ -1198,7 +1231,7 @@
                     </div>
                 </div>
 
-                <h4 class="timeslot">2:15pm<span>-2:30pm</span></h4>
+                <h4 class="timeslot">2:30pm<span>-2:45pm</span></h4>
                 <div class="session">
                     <div>
                         <div class="session-labels">
@@ -1212,7 +1245,7 @@
                     </div>
                 </div>
 
-                <h4 class="timeslot">2:30pm<span>-2:45pm</span></h4>
+                <h4 class="timeslot">2:45pm<span>-3:00pm</span></h4>
                 <div class="session">
                     <div>
                         <div class="session-labels">
@@ -1227,7 +1260,7 @@
                     </div>
                 </div>
 
-                <h4 class="timeslot">2:45pm<span>-3:00pm</span></h4>
+                <h4 class="timeslot">3:00pm<span>-3:15pm</span></h4>
                 <div class="session">
                     <div>
                         <div class="session-labels">
@@ -1237,21 +1270,6 @@
                         </div>
                         <h4 class="session-title">Primordial Black Hole Dark Matter Simulations Using PopSyCLE</h4>
                         <span class="session-author">Kerianne Pruett&nbsp;&nbsp;&#10023;&nbsp;&nbsp;Lawrence Livermore National Laboratory, CA, USA</span>
-                        <span class="session-location">Amphithéâtre (floor 0)</span>
-                    </div>
-                </div>
-
-
-                <h4 class="timeslot">3:00pm<span>-3:15pm</span></h4>
-                <div class="session">
-                    <div>
-                        <div class="session-labels">
-                            <span class="track-name part3">SESSION 9</span>
-                            <span class="track-name workshop">Contributed talk</span>
-                            <span class="track-name virtual">Virtual UTC-7</span>
-                        </div>
-                        <h4 class="session-title">Primordial Black Hole Dark Matter Simulations Using PopSyCLE</h4>
-                        <span class="session-author">Casey Lam&nbsp;&nbsp;&#10023;&nbsp;&nbsp;University of California, Berkeley, CA, USA</span>
                         <span class="session-location">Amphithéâtre (floor 0)</span>
                     </div>
                 </div>
@@ -1329,11 +1347,11 @@
 
 </main>
 <footer id="footer">
-
+    <p><span>Webpage: Clément Ranc from a template based on RailConf 2022.</span></p>
 </footer>
 <script>
-    var openEl = document.getElementById('menu-toggle');
-    var mobileNavEl = document.getElementById('main-nav');
+    let openEl = document.getElementById('menu-toggle');
+    let mobileNavEl = document.getElementById('main-nav');
 
     function toggleNav() {
         mobileNavEl.classList.toggle('menu-mobile--opened')
