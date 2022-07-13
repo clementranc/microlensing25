@@ -599,7 +599,6 @@ ol,ul{
     color:white;
     text-align: center;
 }
-}
 .rc-schedule-day .track-name.part6{
     background:#e0d2c7;
     color:#ffb961;
@@ -810,7 +809,7 @@ ul{
 }
 #hero h3{
     color:#829757;
-    font-size:36px;
+    font-size:30px;
     font-weight:700;
     padding:0 0 15px;
     line-height:48px
@@ -820,7 +819,7 @@ ul{
     position:relative;
     min-height:190px;
     display:grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:3fr 1fr;
     grid-column-gap:100px;
     -moz-column-gap:100px;
     column-gap:100px
