@@ -534,6 +534,16 @@ ol,ul{
     /*background: #ffb961;*/
 }
 
+.rc-schedule-day .break .part5-title{
+    /*color:#5a5655;*/
+    color: rgb(157, 84, 0);
+    font-weight:700;
+    padding: 0;
+    font-size: 14px;
+    line-height:1.2;
+    /*background: #ffb961;*/
+}
+
 .rc-schedule-day .track-name.workshop{
     background: rgba(152, 172, 180, 0.4);
     color:#211f1e
@@ -576,9 +586,10 @@ ol,ul{
     text-align: center;
 }
 .rc-schedule-day .track-name.part5{
-    background:#2d3561;
-    color:#ffb961;
+    background: #9d5400;
+    color:white;
     text-align: center;
+}
 }
 .rc-schedule-day .track-name.part6{
     background:#e0d2c7;
@@ -693,7 +704,7 @@ ol,ul{
 #content blockquote{
     background:#fefcf8
 }
-#blurb,#content blockquote footer strong,#homepage-keynoters ul li div h4,#homepage-location footer h4,#keynote-speakers .speaker h4,#main-nav a,#news ul li span,#sponsors .sponsors-tier.other h3,#sponsors .sponsors-tier span,#team ul strong,#track-directors ul strong,#tracks-nav strong,#venue-hotel h4,#what-is #blurb,.cta,.deadline em,.js-tablist li a small,.program-nav li a,.session-author-details .session-author,.session-title,.session-title a,.timeslot,.track-name,.part1-title,.part2-title,.part3-title,.part4-title{
+#blurb,#content blockquote footer strong,#homepage-keynoters ul li div h4,#homepage-location footer h4,#keynote-speakers .speaker h4,#main-nav a,#news ul li span,#sponsors .sponsors-tier.other h3,#sponsors .sponsors-tier span,#team ul strong,#track-directors ul strong,#tracks-nav strong,#venue-hotel h4,#what-is #blurb,.cta,.deadline em,.js-tablist li a small,.program-nav li a,.session-author-details .session-author,.session-title,.session-title a,.timeslot,.track-name,.part1-title,.part2-title,.part3-title,.part4-title,.part5-title{
     font-family:Roboto Mono,monospace;
     letter-spacing:0!important
 }
