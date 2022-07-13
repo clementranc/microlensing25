@@ -1,0 +1,58 @@
+@import url(https://rsms.me/inter/inter-ui.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap);
+*{
+    box-sizing:border-box;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}
+
+body {
+  background-color: #e3e3e3;
+  font-family:Inter UI,sans-serif;
+}
+
+h1, h2{
+  color: #1c4a5e;
+    width: 800px;
+  border: 0px solid green;
+  padding: 0px;
+  margin: 20px;
+}
+
+h1{
+  font-size: 28px;
+}
+h2{
+  font-size: 20px;
+}
+p{
+  color:#5a5655;
+}
+
+#abstract{
+  background-color: #ececec;
+  width: 800px;
+  border: 0px solid green;
+  padding: 30px;
+  margin: 20px;
+    text-align: justify;
+}
+
+#video{
+  /*background-color: #ececec;*/
+  width: 800px;
+  border: 0px solid green;
+  padding: 0px;
+  padding-left: 120px;
+  margin: 20px;
+}
+
+#footer{
+    z-index:8;
+    position:relative;
+    padding: 30px;
+    width:800px;
+    font-size:9px;
+    font-weight:700;
+    color:#5a5655
+}

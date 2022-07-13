@@ -900,19 +900,3 @@ ul{
 #content.small-type h6{
     font-weight:700
 }
-
-.cta{
-    background:#fefcf8;
-    -o-border-image:linear-gradient(90deg,#5a5655 25%,#e0b952 0,#e0b952 50%,#c04f45 0,#c04f45 75%,#829757 0) 5;
-    border-bottom:5px solid;
-    height:60px;
-    line-height:57px;
-    display:inline-block;
-    color:#5a5655;
-    font-weight:600;
-    font-size:18px;
-    padding:0 50px;
-    box-shadow:0 17px 24px rgba(92,79,62,.2);
-    text-decoration:none;
-    margin:0 0 25px
-}
