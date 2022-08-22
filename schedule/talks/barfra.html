@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="talks.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <title>Fran Bartolić | Microlensing 25</title>
+    <link rel="icon" type="image/png"
+          href="https://clementranc.github.io/microlensing25/schedule/Schedule_files/presentation.png">
+</head>
+<body>
+
+<header id="header">
+    <div id="nav">
+        <div id="logo-area">
+            <img src="coldworlds_favicon2-300x300.png" height="100" alt="Smiley face">
+            <large>Microlensing 25th</large>
+            <small>August 31-September 2, 2022</small>
+        </div>
+
+        <nav id="main-nav">
+            <a href="https://www.cold-worlds.com/nouvelles-scientifiques/workshops-2022">Home
+                page</a>
+            <a href="https://clementranc.github.io/microlensing25/participants">Participants</a>
+            <a href="../Schedule.html">Schedule</a>
+        </nav>
+    </div>
+
+</header>
+
+<h1 id="top">Differentiable modelling of binary and triple lens light curves using the "caustics" code</h1>
+
+<h2>Fran Bartolić&nbsp;&nbsp;&#10023;&nbsp;&nbsp;University of St Andrews, UK</h2>
+
+<p id="abstract">I will present a new open-source code "caustics" (<a href="https://github.com/fbartolic/caustics">https://github.com/fbartolic/caustics</a>) which enables the computation of photometric light curves for binary and triple lens events. The code is implemented in the JAX Python framework which enables the computation of *exact* gradients of the model likelihood with respect to all input parameters of the model. This is made possible by the use of automatic differentiation.
+
+<br><br>"caustics" uses the contour integration method to compute the magnification of an extended, limb-darkened source at a computational cost that is comparable to VBBinaryLensing  for binary lenses. The cost of evaluating the magnification for triple lens systems is only 2-3x greater than in the binary lens case.
+
+<br><br>The availability of exact gradients of the likelihood for the first time enables the use of efficient optimization and MCMC sampling algorithms (for instance, Hamiltonian Monte Carlo) for fitting binary and triple lens events. The code is highly modular and extensively tested. In addition to binary and triple lenses, "caustics" also enables efficient computation of  the finite source magnification for single lenses.</p>
+
+<footer id="footer">
+    <p>25th International Microlensing Conference — The dawn of astrometric microlensing: from cold planets to
+        black-holes
+        <br>Institut d'astrophysique de Paris, August 31-September 2, 2022.</p>
+    <p>Webpage created by Clément Ranc.</p>
+    <p>Copyright 2022 Philip Yock and the 25th International Microlensing Conference organizers.<br>All rights reserved
+        to the copyright owners.</p>
+</footer>
+
+</body>
+</html>
+
+
