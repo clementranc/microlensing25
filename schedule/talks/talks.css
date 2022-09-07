@@ -114,6 +114,16 @@ p {
     margin: 20px 20px 20px 265px;
 }
 
+#panopto {
+    /*background-color: #ececec;*/
+    background-color: white;
+    width: 800px;
+    border: 0 solid green;
+    padding: 0px;
+    text-align: justify;
+    margin: 20px 20px 20px 285px;
+}
+
 #footer {
     z-index: 8;
     position: relative;
