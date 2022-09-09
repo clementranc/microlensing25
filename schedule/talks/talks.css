@@ -77,6 +77,19 @@ header, nav{
     border-bottom: 1px solid #174d62;
     text-decoration: none;
 }
+#pdf{
+    font-family:Roboto Mono,monospace;
+    letter-spacing:0!important;
+    font-size: 100%;
+    text-decoration: none;
+    vertical-align: baseline;
+    display: block;
+    width: 800px;
+    border: 0 solid green;
+    padding: 30px;
+    text-align: justify;
+    margin: 20px 20px 20px 285px;
+}
 h1, h2 {
     color: #1c4a5e;
     width: 800px;

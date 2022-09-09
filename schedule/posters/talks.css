@@ -1,0 +1,149 @@
+@import url(https://rsms.me/inter/inter-ui.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap);
+
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    /*background-color: #e3e3e3;*/
+    font-family: Inter UI, sans-serif;
+}
+header, nav{
+    border: 0;
+    font-family:Roboto Mono,monospace;
+    letter-spacing:0!important;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    vertical-align: baseline;
+    display: block;
+}
+#logo-area{
+    display:block;
+    padding:175px 0 20px 40px;
+    font-family: Inter UI, sans-serif;
+    color: #174d62;
+}
+#logo-area h1{
+    font-size:22px;
+    padding:10px 0 0;
+    letter-spacing:-.025em;
+}
+#logo-area h1{
+    font-weight:800;
+    display: block;
+    z-index: 2;
+}
+#logo-area small{
+    font-weight:800;
+    display: block;
+    z-index: 2;
+}
+#logo-area small{
+    font-size:14px;
+    margin: 0 0 0;
+}
+#logo-area large{
+    font-weight:800;
+    display: block;
+    /*color: #124f67;*/
+}
+#header {
+    width: 265px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 1;
+    border-right: 1px solid #124f67;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+}
+#main-nav {
+    border-top: 1px solid #174d62
+}
+#main-nav a {
+    height: 48px;
+    padding: 0 0 0 40px;
+    line-height: 48px;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    color: #5a5655;
+    border-bottom: 1px solid #174d62;
+    text-decoration: none;
+}
+#pdf{
+    font-family:Roboto Mono,monospace;
+    letter-spacing:0!important;
+    font-size: 100%;
+    text-decoration: none;
+    vertical-align: baseline;
+    display: block;
+    width: 800px;
+    border: 0 solid green;
+    padding: 30px;
+    text-align: justify;
+    margin: 20px 20px 20px 285px;
+}
+h1, h2 {
+    color: #1c4a5e;
+    width: 800px;
+    border: 0 solid green;
+    padding: 0;
+    margin: 20px 20px 20px 285px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    color: #5a5655;
+}
+
+#abstract {
+    background-color: #ececec;
+    width: 800px;
+    border: 0 solid green;
+    padding: 30px;
+    text-align: justify;
+    margin: 20px 20px 20px 285px;
+}
+
+#video {
+    /*background-color: #ececec;*/
+    width: 800px;
+    border: 0 solid green;
+    padding: 0 0 0 120px;
+    margin: 20px 20px 20px 265px;
+}
+
+#panopto {
+    /*background-color: #ececec;*/
+    background-color: white;
+    width: 800px;
+    border: 0 solid green;
+    padding: 0px;
+    text-align: justify;
+    margin: 20px 20px 20px 285px;
+}
+
+#footer {
+    z-index: 8;
+    position: relative;
+    margin-left: 265px;
+    padding: 30px;
+    width: 800px;
+    font-size: 9px;
+    font-weight: 700;
+    color: #5a5655
+}
